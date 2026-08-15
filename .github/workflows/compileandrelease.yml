@@ -14,7 +14,7 @@ jobs:
         with:
           root_file: constitution.tex
       - name: Upload compiled document
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v7
         with:
           name: Compiled document
           path: ./constitution.pdf
